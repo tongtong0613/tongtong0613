@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式">
+  <meta name="description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式  获取网站拥有者   pip install whois   获取网站的架构   pip install builtwith   import whois import builtwith print(&amp;#39;网站拥有者信息：&amp;#39;, whois.whois(&amp;#39;https://bilibili.com&amp;#39">
 <meta name="keywords" content="第一篇">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python爬虫：正则表达式">
 <meta property="og:url" content="http://tongtong0613.github.io/2019/05/28/python爬虫：正则表达式/index.html">
 <meta property="og:site_name" content="T.T">
-<meta property="og:description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式">
+<meta property="og:description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式  获取网站拥有者   pip install whois   获取网站的架构   pip install builtwith   import whois import builtwith print(&amp;#39;网站拥有者信息：&amp;#39;, whois.whois(&amp;#39;https://bilibili.com&amp;#39">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-28T07:52:38.689Z">
+<meta property="og:updated_time" content="2019-05-28T13:47:59.244Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python爬虫：正则表达式">
-<meta name="twitter:description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式">
+<meta name="twitter:description" content="正则表达式正则表达式的详细说明  正则表达式教程  python正则表达式  获取网站拥有者   pip install whois   获取网站的架构   pip install builtwith   import whois import builtwith print(&amp;#39;网站拥有者信息：&amp;#39;, whois.whois(&amp;#39;https://bilibili.com&amp;#39">
 
 
 
@@ -193,7 +193,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="Cambiar a barra de navegación">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -221,7 +221,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Inicio</a>
 
   </li>
         
@@ -238,7 +238,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archivo</a>
 
   </li>
 
@@ -326,14 +326,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Publicado el</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-05-28 15:22:47 / Geändert am: 15:52:38" itemprop="dateCreated datePublished" datetime="2019-05-28T15:22:47+08:00">2019-05-28</time>
+              <time title="Creado por: 2019-05-28 15:22:47 / Modificado por: 21:47:59" itemprop="dateCreated datePublished" datetime="2019-05-28T15:22:47+08:00">2019-05-28</time>
             
 
             
@@ -377,6 +377,43 @@
 <p><a href="https://www.runoob.com/regexp/regexp-tutorial.html" target="_blank" rel="noopener">正则表达式教程</a></p>
 <hr>
 <p><a href="https://www.runoob.com/python/python-reg-expressions.html" target="_blank" rel="noopener">python正则表达式</a></p>
+<ul>
+<li><p>获取网站拥有者</p>
+<p>  pip install whois </p>
+</li>
+<li><p>获取网站的架构</p>
+<p>  pip install builtwith</p>
+</li>
+</ul>
+<p><code>import whois</code></p>
+<p><code>import builtwith</code></p>
+<p><code>print(&#39;网站拥有者信息：&#39;, whois.whois(&#39;https://bilibili.com&#39;))</code></p>
+<p><code>print(&#39;网站架构：&#39;, builtwith.parse(&#39;https://bilibili.com&#39;))</code></p>
+<p>上面代码运行之后会打印以下信息：</p>
+<p>网站拥有者信息：{</p>
+<p>  “domain_name”: [</p>
+<p>   “BILIBILI.COM”,</p>
+<p>   “bilibili.com”<br>  ],</p>
+<p>  “registrar”: “Alibaba Cloud Computing (Beijing) Co., Ltd.”,</p>
+<p>  “whois_server”: “grs-whois.hichina.com”,</p>
+<p>  “referral_url”: null,</p>
+<p>  “updated_date”: “2019-01-30 08:10:56”,</p>
+<p>  “creation_date”: “2004-10-21 11:37:37”,</p>
+<p>  “expiration_date”: “2022-10-21 11:37:37”,</p>
+<p>  “name_servers”:[</p>
+<p>   “NS3.DNSV5.COM”,</p>
+<p>   “NS4.DNSV5.COM”<br>  ],</p>
+<p>  “status”: “ok <a href="https://icann.org/epp#ok&quot;" target="_blank" rel="noopener">https://icann.org/epp#ok&quot;</a>,</p>
+<p>  “emails”: “<a href="mailto:DomainAbuse@service.aliyun.com" target="_blank" rel="noopener">DomainAbuse@service.aliyun.com</a>“,</p>
+<p>  “dnssec”: “unsigned”,</p>
+<p>  “name”: null,</p>
+<p>  “org”: null,</p>
+<p>  “address”: null,</p>
+<p>  “city”: null,</p>
+<p>  “state”: “shang hai”,</p>
+<p>  “zipcode”: null,</p>
+<p>  “country”: null<br>}</p>
+<p>网站架构： {‘javascript-frameworks’: [‘jQuery’]}</p>
 
       
     </div>
@@ -467,10 +504,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Tabla de contenidos
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Inicio
           </li>
         </ul>
       
@@ -491,7 +528,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-name">entradas</span>
                   </a>
                 </div>
               
@@ -508,7 +545,7 @@
                       
                     
                     <span class="site-state-item-count">1</span>
-                    <span class="site-state-item-name">schlagwörter</span>
+                    <span class="site-state-item-name">tags</span>
                   
                 </div>
               
@@ -578,7 +615,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Creado mediante <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -586,7 +623,7 @@
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.1</div>
+  <div class="theme-info">Tema – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.1</div>
 
 
 
